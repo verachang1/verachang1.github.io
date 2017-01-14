@@ -1,0 +1,32 @@
+/*
+    我的基礎設定
+    所有標籤統一設定
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* reset css */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+header,
+footer,
+aside,
+article,
+section,
+blockquote {
+    margin: 200;
+    padding: 200;
+}
+*{font-size: 50px}
