@@ -1,0 +1,11 @@
+.thumbnail {
+    width: calc(100%/3);
+    float:left;
+}
+
+.thumbnail:nth-child(6n+1) {
+    background-color: aquamarine;
+}
+.thumbnail:first-child{
+    width: 100%;
+}
