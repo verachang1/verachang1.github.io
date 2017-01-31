@@ -19,6 +19,12 @@ blockquote,
 div {
     margin: 0;
     padding: 0;
+    cursor: crosshair
+}
+
+img,
+a {
+    cursor: crosshair
 }
 
 .container {
