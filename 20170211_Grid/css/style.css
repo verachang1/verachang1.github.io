@@ -1,0 +1,14 @@
+[class^"col-"] {
+    border: 1px solid;
+}
+
+[class^="col-"] img {
+    width: 100%;
+}
+
+.gravatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+}
