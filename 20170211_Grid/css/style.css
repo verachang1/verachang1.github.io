@@ -3,7 +3,11 @@
 }
 
 [class^="col-"] img {
-    width: 100%;
+    width: 90%;
+}
+
+.gravatar {
+    text-align: center;
 }
 
 .gravatar img {
