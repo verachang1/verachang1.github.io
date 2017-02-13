@@ -1,7 +1,15 @@
-body {
-    background-color: #505050;
-}
-
-body img {
-    padding-left: 50px;
-}
+        body {
+            background-color: #505050;
+        }
+        
+        body img {
+            padding-left: 50px;
+        }
+        
+        .dir {
+            opacity: 0.7;
+        }
+        
+        .dir:hover {
+            opacity: 1;
+        }

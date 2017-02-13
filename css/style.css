@@ -2,7 +2,6 @@
     width: 200px;
     height: 200px;
     position: fixed;
-    border: 1px solid black;
     text-align: center;
     right: 0;
     background-color: beige;
@@ -12,12 +11,33 @@
     position: absolute;
     right: 13px;
     top: 20px;
+    opacity: 1;
+}
+
+#bar1:hover {
+    opacity: 0.4;
 }
 
 #bar2 {
     position: absolute;
     left: 13px;
     top: 20px;
+    opacity: 1;
+}
+
+#bar2:hover {
+    opacity: 0.6;
+}
+
+#bar3 {
+    position: absolute;
+    right: 28px;
+    top: 20px;
+    opacity: 1;
+}
+
+#bar3:hover {
+    opacity: 0.6;
 }
 
 .nav {
@@ -60,7 +80,19 @@
 }
 
 .footer {
-    border-top: 1px solid black;
-    padding-top: 30px;
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
+#mail {
+    text-align: right;
+}
+
+#padding {
+    padding-top: 50px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}

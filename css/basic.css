@@ -35,11 +35,10 @@ a {
 [class^="col-"] {
     float: left;
     padding: 15px;
+    border: 1px;
 }
 
-.row {
-    border: 1px solid;
-}
+.row {}
 
 .col-1 {
     width: calc(100% *1/12);
@@ -89,10 +88,14 @@ a {
     width: calc(100% *12/12);
 }
 
-.thumbnail {
-    border-radius: 5px;
+.thumbnail img {
+    width: 100%;
 }
 
-.thumbnail img {
+.thumbnail2 img {
+    width: 100%;
+}
+
+.thumbnail3 img {
     width: 100%;
 }
