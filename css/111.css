@@ -40,6 +40,13 @@
     position: relative;
 }
 
+.thumbnail4 {
+    display: block;
+    width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 span.text-content span {
     display: table-cell;
     text-align: left;
