@@ -33,8 +33,7 @@ a {
 }
 
 .containertext {
-    width: 830px;
-    margin: 0 auto;
+   padding-left: 30px;
 }
 
 [class^="col-"] {
