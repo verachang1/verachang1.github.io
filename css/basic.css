@@ -32,10 +32,15 @@ a {
     margin: 0 auto;
 }
 
+.containertext {
+    width: 830px;
+    margin: 0 auto;
+}
+
 [class^="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px;
+    padding: 13.5px;
+    border: 0px;
 }
 
 .row {}

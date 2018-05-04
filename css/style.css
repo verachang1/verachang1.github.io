@@ -1,121 +1,141 @@
-.box {
-    width: 200px;
-    height: 200px;
-    position: fixed;
-    text-align: center;
-    right: 0;
-    background-color: beige;
-}
-
-#bar1 {
-    position: absolute;
-    right: 13px;
-    top: 20px;
-    opacity: 1;
-}
-
-#bar1:hover {
-    opacity: 0.4;
-}
-
-#bar2 {
-    position: absolute;
-    left: 13px;
-    top: 20px;
-    opacity: 1;
-}
-
-#bar2:hover {
-    opacity: 0.6;
-}
-
-#bar3 {
-    position: absolute;
-    right: 28px;
-    top: 20px;
-    opacity: 1;
-}
-
-#bar3:hover {
-    opacity: 0.6;
-}
-
-.nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 50px;
-}
-
-.jumbotron {
-    background-image: url(http://imgh.us/main_13.svg);
-    width: 600px;
-    text-align: center;
-    padding-top: 300px;
-    margin: 0 auto;
-}
-
-.gravatar {
-    text-align: center;
-    padding-top: 110px;
-    margin: 0 auto;
-}
-
-.gravatar1 {
-    padding-top: 80px;
-    margin: 0 auto;
-}
-
-.gravatar1 img {
-    padding-left: 20px;
-}
-
-.gravatar2 {
-    text-align: left;
-    padding-top: 150px;
-    margin: 0 auto;
-}
-
-.footer {
-    border-top: 1px solid black;
-    padding-bottom: 0px;
-}
-
-#mail {
-    text-align: right;
-}
-
-#padding {
-    padding-top: 50px;
-}
-
-.center {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.foot {
-    position: fixed;
-    top: 720px;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 50px;
-}
-
-.foot1 {
-    position: absolute;
-    right: 13px;
-    top: 20px;
-    opacity: 1;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+ .box {
+     width: 200px;
+     height: 200px;
+     position: fixed;
+     text-align: center;
+     right: 0;
+     background-color: beige;
+ }
+ 
+ #bar1 {
+     position: absolute;
+     right: 13px;
+     top: 10px;
+     opacity: 1;
+ }
+ 
+ #bar1:hover {
+     opacity: 0.4;
+ }
+ 
+ #bar2 {
+     position: absolute;
+     left: 13px;
+     top: 10px;
+     opacity: 1;
+ }
+ 
+ #bar2:hover {
+     opacity: 0.6;
+ }
+ 
+ #bar3 {
+     position: absolute;
+     right: 28px;
+     top: 20px;
+     opacity: 1;
+ }
+ 
+ #bar3:hover {
+     opacity: 0.6;
+ }
+ 
+ .nav {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 9999;
+     width: 100%;
+     height: 20px;
+ }
+ 
+ .jumbotron {
+     background-image: url(http://imgh.us/main_13.svg);
+     width: 600px;
+     text-align: center;
+     padding-top: 300px;
+     margin: 0 auto;
+ }
+ 
+ .gravatar {
+     text-align: center;
+     padding-top: 0px;
+     margin: 0 auto;
+ }
+ 
+ .gravatar1 {
+     padding-top: 80px;
+     margin: 0 auto;
+ }
+ 
+ .gravatar1 img {
+     padding-left: 20px;
+ }
+ 
+ .gravatar2 {
+     text-align: left;
+     padding-top: 150px;
+     margin: 0 auto;
+ }
+ 
+ .footer {
+     border-top: 1px solid black;
+     padding-bottom: 0px;
+ }
+ 
+ #mail {
+     text-align: right;
+ }
+ 
+ #padding {
+     padding-top: 50px;
+ }
+ 
+ .center {
+     text-align: center;
+     margin: 0 auto;
+ }
+ 
+ .foot {
+     position: fixed;
+     top: 720px;
+     left: 0;
+     right: 0;
+     z-index: 9999;
+     width: 100%;
+     height: 50px;
+ }
+ 
+ .foot1 {
+     position: absolute;
+     right: 13px;
+     top: 20px;
+     opacity: 1;
+ }
+ 
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .prototype {
+     position: relative;
+     right: 0px;
+     top: 40px;
+     z-index: -3;
+ }
+ 
+ .m {
+     position: relative;
+     right: -21px;
+     top: -477px;
+     z-index: 2;
+ }
+ 
+ .up {
+     position: relative;
+     top: -320px;
+     z-index: 1;
+ }
