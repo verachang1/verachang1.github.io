@@ -41,13 +41,24 @@
  }
  
  #bar4 {
-    float: right;
+     float: right;
      padding-right: 20px;
      opacity: 0.4;
  }
  
  #bar4:hover {
      opacity: 1;
+ }
+ 
+ #bar5 {
+     float: left;
+     padding-right: 25px;
+     padding-top: 15px;
+     opacity: 1;
+ }
+ 
+ #bar5:hover {
+     opacity: 0.6;
  }
  
  .nav {
