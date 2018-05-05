@@ -33,7 +33,11 @@ a {
 }
 
 .containertext {
-   padding-left: 30px;
+    padding-left: 30px;
+}
+
+.mail {
+    vertical-align: middle;
 }
 
 [class^="col-"] {
@@ -41,8 +45,6 @@ a {
     padding: 13.5px;
     border: 0px;
 }
-
-.row {}
 
 .col-1 {
     width: calc(100% *1/12);

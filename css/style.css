@@ -40,6 +40,16 @@
      opacity: 0.6;
  }
  
+ #bar4 {
+    float: right;
+     padding-right: 20px;
+     opacity: 0.4;
+ }
+ 
+ #bar4:hover {
+     opacity: 1;
+ }
+ 
  .nav {
      position: fixed;
      top: 0;
