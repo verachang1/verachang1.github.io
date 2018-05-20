@@ -37,6 +37,11 @@ a {
     margin: 0 auto;
 }
 
+.text {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .mail {
     vertical-align: middle;
 }
