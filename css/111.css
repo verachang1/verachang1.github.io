@@ -7,8 +7,6 @@
 
 .thumbnail {
     display: block;
-    height: 460px;
-    margin: 0 1em 1em 0;
     position: relative;
 }
 
@@ -21,7 +19,6 @@
 
 .thumbnail2 {
     display: block;
-    width: 454px;
     margin: 0 0;
     position: relative;
 }
@@ -35,7 +32,6 @@
 
 .thumbnail3 {
     display: block;
-    width: 954px;
     margin: 0 0;
     position: relative;
 }
@@ -69,15 +65,15 @@ span.text-content3 span {
 }
 
 span.text-content {
-    background: rgba(90, 90, 90, 0.9);
-    color: white;
+    background: rgba(255, 255, 255, 1);
+    color: black;
     cursor: crosshair;
     display: table;
-    height: 455px;
+    height: 490px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 454px;
+    width: 490px;
     opacity: 0;
     -moz-transition: all .2s linear;
     -webkit-transition: all .2s linear;
@@ -87,15 +83,15 @@ span.text-content {
 }
 
 span.text-content2 {
-    background: rgba(90, 90, 90, 0.9);
-    color: white;
+    background: rgba(255, 255, 255, 1);
+    color: black;
     cursor: crosshair;
     display: table;
-    height: 960px;
+    height: 995px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 455px;
+    width: 490px;
     opacity: 0;
     -moz-transition: all .2s linear;
     -webkit-transition: all .2s linear;
@@ -105,15 +101,15 @@ span.text-content2 {
 }
 
 span.text-content3 {
-    background: rgba(90, 90, 90, 0.9);
-    color: white;
+    background: rgba(255, 255, 255, 1);
+    color: black;
     cursor: crosshair;
     display: table;
-    height: 452px;
+    height: 468px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 954px;
+    width: 990px;
     opacity: 0;
     -moz-transition: all .2s linear;
     -webkit-transition: all .2s linear;
