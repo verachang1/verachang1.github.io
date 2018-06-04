@@ -120,11 +120,11 @@
  
  .m {
      position: relative;
-     left: 355px;
-     top: -587px;
+     left: 360px;
+     top: -600px;
      z-index: 3;
-     width: 263px;
-     height: 471px;
+     width: 270px;
+     height: 480px;
      overflow: scroll;
  }
  

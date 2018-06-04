@@ -33,8 +33,14 @@ a {
 }
 
 .containertext {
-    width: 960px;
+    width: 950px;
     margin: 0 auto;
+}
+
+.task {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .text {
