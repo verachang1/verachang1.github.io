@@ -129,3 +129,14 @@ span.text-content3 {
 .thumbnail3:hover span.text-content3 {
     opacity: 1;
 }
+
+#related {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#related:hover {
+    filter: none;
+    -webkit-transform: scale(1.01);
+}
