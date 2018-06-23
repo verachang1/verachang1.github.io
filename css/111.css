@@ -38,6 +38,7 @@
 
 .thumbnail4 {
     display: block;
+    
 }
 
 span.text-content span {
@@ -131,12 +132,13 @@ span.text-content3 {
 }
 
 #related {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-    /* Webkit Nightlies & Chrome Canary */
-    -webkit-transition: all .5s ease-in-out;
+-webkit-transition: 0.4s ease;
+ transition: 0.4s ease;
+    
+ 
 }
 
 #related:hover {
-    filter: none;
-    -webkit-transform: scale(1.01);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
 }

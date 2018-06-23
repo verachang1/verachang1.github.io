@@ -126,3 +126,16 @@ a {
 .thumbnail5 img {
     width: 100%;
 }
+
+.item {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.con {
+    position: relative;
+    width: 990px;
+    height: 468px;
+    overflow: hidden;
+}
