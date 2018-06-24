@@ -119,9 +119,8 @@
  }
  
  .m {
-     position: relative;
-     left: 360px;
-     top: -600px;
+     margin-top: -600px;
+     margin-left: 360px;
      z-index: 3;
      width: 270px;
      height: 480px;
