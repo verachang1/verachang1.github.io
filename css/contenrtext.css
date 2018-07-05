@@ -5,6 +5,13 @@
      line-height: 40px;
  }
  
+ h3 {
+     font-family: 'Noto Sans TC', sans-serif;
+     font-size: 19px;
+     font-weight: 600;
+     line-height: 36 px;
+ }
+ 
  h11 {
      font-family: 'Noto Sans TC', sans-serif;
      font-size: 22px;
@@ -24,6 +31,21 @@
      font-family: 'Noto Sans TC', sans-serif;
      font-size: 19px;
      font-weight: 300;
+ }
+ 
+ note {
+     font-family: 'Noto Sans TC', sans-serif;
+     font-size: 14px;
+     font-weight: 300;
+     color: grey;
+ }
+ 
+ b2 {
+     font-family: 'Noto Sans TC', sans-serif;
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 70px;
+     color: #888888;
  }
  
  a:link {
