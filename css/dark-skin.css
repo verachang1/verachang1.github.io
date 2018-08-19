@@ -1,0 +1,253 @@
+a, a:hover, a:focus, #header .search-top-btn-class:hover,#header .wpml-translation li a:hover,#header .wpml-translation li .current-language, .current-language .languages-shortname,.comment-form .logged a:hover,.article-cate-a,.pagenums .tw-style-a:hover,
+.count-box,.social-like .wpulike .counter a.image:before,.post-meta-social .count, .height-light-ux,.post-categories a,.widget_archive li,.widget_categories li,.widget_nav_menu li,.widget_pages li,
+.entry p a,.sidebar_widget a:hover, .archive-tit a:hover,.text_block a,.post_meta > li a:hover, #sidebar a:hover, #comments .comment-author a:hover,#comments .reply a:hover,.fourofour-wrap a,.archive-meta-unit a:hover,.post-meta-unit a:hover, .heighlight,.archive-meta-item a,.author-name,
+.carousel-wrap a:hover, .related-post-wrap h3:hover a, .iconbox-a .iconbox-h3:hover,.iconbox-a:hover,.iocnbox:hover .icon_wrap i.fa,.blog-masony-item .item-link:hover:before,.clients_wrap .carousel-btn .carousel-btn-a:hover:before,
+.blog_meta a:hover,.breadcrumbs a:hover,.link-wrap a:hover,.archive-wrap h3 a:hover,.more-link:hover,.post-color-default,.latest-posts-tags a:hover,.pagenums .current,.page-numbers.current,.fullwidth-text-white .fullwrap-with-tab-nav-a:hover,.fullwrap-with-tab-nav-a:hover,.fullwrap-with-tab-nav-a.full-nav-actived,.fullwidth-text-white .fullwrap-with-tab-nav-a.full-nav-actived,a.liquid-more-icon.ux-btn:hover,.moudle .iterblock-more.ux-btn:hover,
+.gallery-info-property-con a, .grid-meta-a
+{ 
+	color: #CFBCA6; 
+}
+.tagcloud a:hover,.related-post-wrap h3:before,.single-image-mask,input.idi_send:hover, .iconbox-content-hide .icon_text,.process-bar, .portfolio-caroufredsel-hover
+{ 
+	background-color: #CFBCA6;
+}
+		
+.tagcloud a,.gallery-list-contiune, .author-unit-inn, .archive-bar,.audio-unit,.blog-unit-link-li,.blog-unit-quote,.slider-panel,#main_title_wrap, .promote-wrap,.process-bar-wrap,.post_meta,.pagenumber a,.standard-blog-link-wrap,.blog-item.quote,.portfolio-standatd-tit-wrap:before,.quote-wrap,.entry pre,.text_block pre,.isotope-item.quote .blog-masony-item,.blog-masony-item .item-link-wrap,.pagenumber span,.testimenials,.testimenials .arrow-bg,.accordion-heading,.testimonial-thum-bg,.single-feild,.fullwidth-text-white .iconbox-content-hide .icon_wrap
+{ 
+	background-color: #3d3d3d; 
+}
+.progress_bars_with_image_content .bar .bar_noactive.grey
+{
+  color: #3d3d3d; 
+}
+body.archive #wrap,.widget_archive li,.widget_categories li,.widget_nav_menu li,.widget_pages li,.widget_recent_entries li,.widget_recent_comments li,.widget_meta li,.widget_rss li,
+.nav-tabs,.border-style2,.border-style3,.nav-tabs > li > a,.tab-content,.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus,.tabs-v,.single-feild,.archive-unit
+{ 
+	border-color: #3d3d3d; 
+} 
+.tab-content.tab-content-v,blockquote
+{
+	border-left-color: #3d3d3d; 
+} 
+.tabs-v .nav-tabs > .active > a,.line_grey
+{
+	border-top-color: #3d3d3d; 
+}
+		
+body,#wrap-outer,#wrap,#search-overlay,#top-wrap,#main,.separator h4, .carousel-control,#login-form.modal .modal-dialog,.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus,.tab-content,.filters.filter-floating li a:before,.standard-list-item:hover .portfolio-standatd-tit-wrap:before,.ux-mobile #main-navi-inn 
+{ 
+	background-color: #313139;
+}
+.testimenials span.arrow,.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus { 
+	border-bottom-color: #313139; 
+}
+	.tabs-v .nav-tabs > .active > a
+{ 
+	border-right-color: #313139; 
+}
+.quote-wrap, .mouse-icon,.social-icon-triggle,.carousel-control, .countdown_amount,.countdown_section,.blog-unit-link-li:hover,.blog-unit-link-li:hover a 
+{
+	color: #313139; 
+}
+		
+#header,#menu-panel,.page_from_top.header-scrolled #header,#navi-header .sub-menu 
+{ 
+	background-color: #313139;
+}
+		
+.page-loading
+{ 
+	background-color: #313139;
+}
+		
+::selection { background: #F0E8DF; }
+::-moz-selection { background: #F0E8DF; }
+::-webkit-selection { background: #F0E8DF; }
+		
+.logo-h1 
+{
+	color: #313139; 
+}
+		
+.light-logo .logo-h1,.default-light-logo .logo-h1,.light-logo .ux-woocomerce-cart-a
+{
+	color: #FFFFFF; 
+}
+		
+#navi-trigger,#header .socialmeida-a,#navi_wrap > ul > li > a,
+.light-logo.header-scrolled #navi-trigger, 
+.light-logo.header-scrolled #header .socialmeida-a, 
+.light-logo.header-scrolled #navi_wrap > ul > li > a,
+.light-logo.header-scrolled .ux-woocomerce-cart-a
+{
+	color: #313139; 
+}	
+		
+.light-logo #navi-trigger,.default-light-logo #navi-trigger,
+.light-logo #header .socialmeida-a,.default-light-logo #header .socialmeida-a,
+.light-logo #navi_wrap > ul > li > a,.default-light-logo #navi_wrap > ul > li > a,
+.light-logo.single-portfolio-fullscreen-slider .blog-unit-gallery-wrap .arrow-item, .default-light-logo.single-portfolio-fullscreen-slider .blog-unit-gallery-wrap .arrow-item, 
+.light-logo #ux-slider-down, .default-light-logo #ux-slider-down,
+.light-logo.single-portfolio-fullscreen-slider .owl-dots, .default-light-logo.single-portfolio-fullscreen-slider .owl-dots
+{
+	color: #FFFFFF; 
+}	
+		
+#navi a,.menu-panel-inn .socialmeida-,.menu-panel-inn .socialmeida-a:hover,.search-top-btn-class
+{
+	color: #fff; 
+}
+		
+.title-wrap-tit,.title-wrap-h1,h1,h2,h3,h4,h5,h6,.archive-tit a, .item-title-a,#sidebar .social_active i:hover,.article-cate-a:hover:after,
+.portfolio-standatd-tags a[rel="tag"]:hover:after,.nav-tabs > .active > a, .nav-tabs > li > a:hover, .nav-tabs > .active > a:focus, .post-navi-a,.moudle .ux-btn,.mainlist-meta, .mainlist-meta a,carousel-des-wrap-tit-a,
+.jqbar.vertical span,.team-item-con-back a,.team-item-con-back i,.team-item-con-h p,.slider-panel-item h2.slider-title a,.bignumber-item.post-color-default,.blog-item .date-block,.iterlock-caption-tit-a,
+.clients_wrap .carousel-btn .carousel-btn-a, .image3-1-unit-tit
+{ 
+	color:#FFFFFF; 
+}
+.post_social:before, .post_social:after,.title-ux.line_under_over,.gallery-wrap-sidebar .entry, .social-share 
+{ 
+	border-color: #FFFFFF; 
+} 
+.team-item-con,.ux-btn:before,.title-ux.line_both_sides:before,.title-ux.line_both_sides:after,.galleria-info,#float-bar-triggler,.float-bar-inn,.short_line:after, 
+.separator_inn.bg- ,.countdown_section 
+{
+	background-color: #FFFFFF;
+}
+		
+			
+body,a,.entry p a:hover,.text_block, .article-tag-label a[rel="tag"]:after,.article-meta-unit-cate > a.article-cate-a:after,.article-cate-a:hover,.text_block a:hover,#content_wrap,#comments,.blog-item-excerpt,.archive-unit-excerpt,.archive-meta-item a:hover,.entry code,.text_block code,select,
+h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comments .nav-tabs li a:hover h3 .logged,.testimonial-thum-bg i.fa,.post-navi-go-back-a:focus ,
+.header-info-mobile,.carousel-wrap a.disabled:hover,.stars a:hover,.moudle .iterblock-more.ux-btn,.moudle .liquid-more-icon.ux-btn,.fullwrap-block-inn a
+{ 
+	color: #FFFFFF; 
+}
+.blog-unit-link-li:hover {
+	background-color: #FFFFFF; 
+}
+			
+		
+.article-meta-unit,.article-meta-unit:not(.article-meta-unit-cate) > a,.article-tag-label-tit, .comment-meta,.comment-meta a,.title-wrap-des,.blog_meta_cate,.blog_meta_cate a,.gird-blog-meta,.grid-meta-a:after
+{ 
+	color:#E0E0E0; 
+}
+.comment-author:after {
+	background-color: #E0E0E0; 
+}
+.blog-item-more-a:hover 
+{
+	border-color: #E0E0E0; 
+}
+		
+.gallery-info-property-tit 
+{ 
+	color: #FFFFFF;
+}
+		
+.gallery-info-property-con,.gallery-info-property-con a:hover 
+{ 
+	color: #FFFFFF;
+}
+		
+.gallery-link-a,.gallery-link-a:hover 
+{ 
+	color: #FFFFFF;
+}
+		
+.post-navi-single, .arrow-item 
+{ 
+	color: #FFFFFF;
+}
+		
+.comment-box-tit,.comm-reply-title 
+{ 
+	color: #FFFFFF;
+}
+		
+.comm-u-wrap 
+{ 
+	color: #FFFFFF;
+}
+		
+.comment-meta .comment-author,.comment-meta .comment-author-a 
+{ 
+	color: #FFFFFF;
+}
+		
+.filters-a 
+{ 
+	color: #FFFFFF;
+}
+		
+.filters-a:hover,.active > .filters-a
+{ 
+	color: #FFFFFF;
+}
+		
+.tw-style-a.ux-btn,.tw-style-a.ux-btn:hover
+{ 
+	color: #FFFFFF;
+}
+		
+.grid-item-tit,.grid-item-tit-a:hover
+{ 
+	color: #FFFFFF;
+}
+		
+.grid-item-cate-a
+{ 
+ 	color: #FFFFFF;
+}
+		
+.grid-item-con:after,.product-caption 
+{ 
+	background-color: #313139;
+}
+		
+.ux-btn, button, input[type="submit"] 
+{ 
+	color: #FFFFFF;
+}
+		
+.ux-btn:hover,button:hover, input[type="submit"]:hover,.moudle .ux-btn.tw-style-a:hover,.moudle .ux-btn:before,.woocommerce button.button.alt:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt:hover
+{ 
+	color: #313130;
+}
+		
+.ux-btn:hover,button:hover, input[type="submit"]:hover,.woocommerce button.button.alt:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt:hover
+{ 
+	background-color: #FFFFFF; border-color: #FFFFFF;
+}
+		
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input 
+{ 
+	color: #ADADAD;
+}
+		
+.moudle input[type="text"]:focus, .moudle textarea:focus, input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus,
+.comment-reply-title:hover
+{ 
+	color: #FFFFFF;
+}
+		
+.widget-container .widget-title, .widget-container .widget-title a 
+{ 
+	color: #FFFFFF;
+}
+		
+.widget-container,.widget-container a ,.widget-container select
+{ 
+	color: #FFFFFF;
+}
+		
+.footer-bar,.footer-bar a,.copyright, .copyright a,.footer-info,.footer-info a,#footer .logo-h1
+{ 
+	color: #FFFFFF; 
+}
+		
+#footer 
+{
+	background-color: #313139; 
+}
+		
+select { background-image: url(../img/select-light.png); }
