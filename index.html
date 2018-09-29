@@ -2,19 +2,28 @@
 <html lang="en-US">
 
 <head>
+
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-PQVRTWJ':true});</script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100449299-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('config', 'UA-100449299-1', { 'optimize_id': 'GTM-PQVRTWJ'});
+</script>
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
 
-        gtag('config', 'UA-100449299-1');
-
-    </script>
     <title>Vera Chang Design</title>
 
     <!--Meta-->
@@ -34,48 +43,52 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel='stylesheet' href='css2/bootstrap.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='screen' />
 
     <!-- Font Icon CSS -->
-    <link rel='stylesheet' href='css2/font-awesome.min.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='screen' />
 
     <!-- Owl Carousel Plugin CSS -->
-    <link rel='stylesheet' href='css2/owl.carousel.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/owl.carousel.css' type='text/css' media='screen' />
 
     <!-- Lightbox Plugin CSS -->
-    <link rel='stylesheet' href='css2/photoswipe.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/photoswipe.css' type='text/css' media='screen' />
 
     <!-- Lightbox Plugin Skin CSS -->
-    <link rel='stylesheet' href='css2/skin/photoswipe/default/default-skin.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/skin/photoswipe/default/default-skin.css' type='text/css' media='screen' />
 
-    <!-- Air. Theme Elements CSS -->
-    <link rel='stylesheet' href='css2/pagebuild.css' type='text/css' media='screen' />
+    <!-- Vera Chang Elements CSS -->
+    <link rel='stylesheet' href='css/pagebuild.css' type='text/css' media='screen' />
 
-    <!-- Air. Theme Main CSS -->
-    <link rel='stylesheet' href='css2/style.css' type='text/css' media='screen' />
+    <!-- Vera Chang Main CSS -->
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='screen' />
 
     <!-- IE hack -->
     <!--[if lte IE 9]>
-        <link rel='stylesheet' id='cssie9'  href='css/ie.css' type='text/css' media='screen' />
-        <![endif]-->
+    	<link rel='stylesheet' id='cssie9'  href='css/ie.css' type='text/css' media='screen' />
+    	<![endif]-->
 
     <!--[if lte IE 9]>
-        <script type="text/javascript" src="js/ie.js"></script>
-        <![endif]-->
+    	<script type="text/javascript" src="js/ie.js"></script>
+    	<![endif]-->
 
     <!--[if lte IE 8]>
-        <div style="width: 100%;" class="messagebox_orange">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
-        <![endif]-->
+    	<div style="width: 100%;" class="messagebox_orange">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
+    	<![endif]-->
+    <style>
 
+
+    </style>
 </head>
 
-<body class="error404 default-dark-logo pswp-light-skin responsive-ux navi-show dark-logo header-sticky preload" style="background-color:#F1F1F1;">
+<body class="page page-template-default default-dark-logo pswp-light-skin responsive-ux page-template-masonry-body page-template-intro-above-list-body navi-show page_from_top non_bg_header show-top-space page_from_top dark-logo header-sticky preload page_from_top">
+
 
     <!--Page Loader-->
     <div class="page-loading fullscreen-wrap visible">
         <div class="page-loading-inn">
             <div class="page-loading-transform">
-                <div class="site-loading-logo"><img src="img/demo/logo-loading.png" alt="Vera Chang" /></div>
+                <div class="site-loading-logo"><img src="img/demo/logo-loading.gif" alt="Vera Chang" /></div>
             </div>
         </div>
     </div>
@@ -91,22 +104,51 @@
             <!--Header-->
             <header id="header" class="">
 
-                <div id="header-main" style="background-color:#F1F1F1;">
+                <div id="header-main">
 
                     <div class="container">
 
+                        <span id="navi-trigger">
+                            <span class="navi-trigger-text">
+                                <span class="navi-trigger-text-menu navi-trigger-text-inn">MENU</span>
+                                <span class="navi-trigger-text-close navi-trigger-text-inn">CLOSE</span>
+                            </span>
+                            <span class="navi-trigger-inn">
+                                <span class="navi-trigger-hamberg-line navi-trigger-hamberg-line1"></span>
+                                <span class="navi-trigger-hamberg-line navi-trigger-hamberg-line2"></span>
+                                <span class="navi-trigger-hamberg-line navi-trigger-hamberg-line3"></span>
+                            </span>
+                        </span>
 
+                        <div class="heade-meta">
 
+                            <nav id="navi-header">
+
+                                <div id="navi_wrap" class="menu-menu-1-container">
+
+                                    <ul class="menu clearfix">
+
+                                        <li class="external menu-item menu-item-type-post_type menu-item-object-page"><a href="Projects.html">Projects</a></li>
+                                        <li class="external menu-item menu-item-type-post_type menu-item-object-page"><a href="page-about.html">About</a></li>
+                                        <li class="external menu-item menu-item-type-post_type menu-item-object-page"><a href="page-contact.html">Contact</a></li>
+                                    </ul>
+
+                                </div>
+                                <!--End #navi_wrap-->
+
+                            </nav>
+
+                        </div>
 
                         <div class="navi-logo">
 
                             <div class="logo-wrap">
                                 <div id="logo">
-
-                                    <h1 class="logo-h1 logo-not-show-txt">Vera Chang</h1>
-                                    <img class="logo-image logo-dark" src="img/demo/logo_dark.png" alt="Vera Chang" />
-                                    <span class="logo-light"><img class="logo-image" src="img/demo/logo_light.png" alt="Vera Chang" /></span>
-
+                                    <a class="logo-a" href="index.html" title="Vera Chang">
+                                        <h1 class="logo-h1 logo-not-show-txt">Vera Chang</h1>
+                                        <img class="logo-image logo-dark" src="img/demo/logo_dark.png" alt="Vera Chang" />
+                                        <span class="logo-light"><img class="logo-image" src="img/demo/logo_light.png" alt="Vera Chang" /></span>
+                                    </a>
                                 </div>
                             </div>
                             <!--End logo wrap-->
@@ -120,31 +162,525 @@
 
             </header>
 
+            <div id="menu-panel">
+
+                <div class="menu-panel-inn fullscreen-wrap">
+
+                    <nav id="navi">
+
+                        <div id="navi-wrap" class="menu-navi-wrap">
+
+                            <ul class="menu clearfix">
+
+                                <li id="menu-item-246" class="menu-item"><a href="Projects.html">Projects</a></li>
+                                <li id="menu-item-256" class="menu-item"><a href="page-about.html">About</a></li>
+                                <li id="menu-item-247" class="menu-item"><a href="page-contact.html">Contact</a></li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+
+                    <div id="menu-panel-bottom" class="container-fluid">
 
 
 
-            <!-- Main Content Wrap -->
-            <div id="wrap" style="background-color:#F1F1F1;">
+                        <div class="menu-panel-bottom-right col-md-9 col-sm-9 col-xs-9">
 
-                <!-- Main Content : List, text content ... -->
-                <div id="content">
+                            <div class="socialmeida-mobile">
 
-                    <div class="content_wrap_outer">
-
-                        <div id="content_wrap" class="fourofour-wrap">
-
-                            <div class="container-inn">
-                                <br><br><br>
-                                <img class="shortcode-img" src="img/503.png" alt="503" width="650px" /><br><br>
+                                <ul class="socialmeida clearfix">
 
 
-                                <h1>Working hard.</h1>
-                                <br>
-                                <p>The site is temporarily down for maintenance. Please follow me on Dribbble and Behance. <br>See you soon!</p>
+                                    <li class="socialmeida-li">
+                                        <a title="Twitter" href="https://dribbble.com/verachang" target="_blank" class="socialmeida-a">
+                                            <span class=""></span> <span class="socialmeida-text">Dribbble</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="socialmeida-li">
+                                        <a title="Behance" href="https://www.behance.net/verachang" target="_blank" class="socialmeida-a">
+                                            <span class=""></span> <span class="socialmeida-text">Behance</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
                             </div>
 
                         </div>
-                        <!-- End content_wrap-->
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--End #menu-panel-->
+
+
+            <!-- Main Content Wrap -->
+            <div id="wrap">
+
+                <!-- Top Slider -->
+                <div class="top-slider">
+
+                    <div class="owl-carousel" data-auto="false" data-item="1" data-center="true" data-margin="0" data-autowidth="false" data-slideby="1" data-showdot="false">
+
+
+                        <section class="item">
+                            <div class="carousel-des-wrap">
+                                <div class="carousel-des-wrap-inn container center-ux">
+                                    <div class="carousel-des">
+                                        <font face="Akkurat-light" class="carousel-des-cate clearfix" style="font-size:130%;">Tchibo's Home page</font>
+                                        <hs class="carousel-des-wrap-tit"><a class="carousel-des-wrap-tit-a" title="Tchibo's Home page" href="project-Tchibo.html" style="font-size:200%">My coffee, my life.</a></hs>
+                                    </div>
+                                </div>
+                                <div class="carousel-img-wrap ux-background-img" style="background-image:url(img/header2.jpg);"></div>
+                            </div>
+                        </section>
+
+
+                    </div>
+
+                    <div id="ux-slider-down"></div>
+                </div>
+                <!-- End top-slider -->
+
+                <!-- Main Content : List, text content ... -->
+
+
+                <div id="content">
+
+
+                    <div class="content_wrap_outer fullwrap-layout">
+
+                        <div id="content_wrap" class="">
+                            <h1>
+
+                                <center>Selected Projects</center>
+                            </h1>
+
+                            <div class="container container-masonry ux-portfolio-spacing-10 ux-portfolio-3col ux-has-filter filter-center" data-col="3" data-spacer="10">
+
+                                <div class="clearfix filters">
+
+                                    <ul class="filters-ul container">
+                                        <li class="filters-li active"><a id="all" class="filters-a" href="#" data-filter="*">All<span class="filter-num">15</span></a></li>
+
+                                        <li class="filters-li"><a class="filters-a" data-filter=".filter_Branding" href="#" data-catid="5" data-pageid="123">Branding<span class="filter-num">5</span></a></li>
+
+                                        <li class="filters-li"><a class="filters-a" data-filter=".filter_Campaign" href="#" data-catid="8" data-pageid="123">Campaign<span class="filter-num">8</span></a></li>
+
+                                        <li class="filters-li"><a class="filters-a" data-filter=".filter_Digital" href="#" data-catid="4" data-pageid="123">Digital<span class="filter-num">4</span></a></li>
+
+                                        <li class="filters-li"><a class="filters-a" data-filter=".filter_Exhibition" href="#" data-catid="3" data-pageid="123">Exhibition<span class="filter-num">3</span></a></li>
+                                    </ul>
+
+                                </div>
+                                <!--End filter-->
+
+                                <div class="masonry-list masonry-grid grid-mask-filled-left">
+
+
+
+
+                                    <section class="grid-item grid-item-tall" data-postid="170" style="background-color:#F1F1F1">
+
+
+                                        <!--                                        // TODO: style.css:2250 text-align: left;.-->
+                                        <div class="grid-item-con">
+                                            <a href="page-about.html" target="_blank" class="socialmeida-a" style="position:relative;bottom:-78%; padding-left:30px;">
+                                                <h1>
+                                                    <hs class="socialmeida-text">Read more</hs>
+                                                </h1>
+                                            </a>
+                                            <div class="grid-item-con-text">
+                                                <h2 class="grid-item-tit"><a href="page-about.html" title="About" class="grid-item-tit-a">:)</a></h2>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="brick-content ux-lazyload-wrap" style="padding-top: 75.384615384615%;">
+                                            <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/abouttext.png">
+                                            </div>
+                                        </div>
+
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-big grid-item--width2 filter_Branding filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-scentist.html" title="Scentist Collection Brochure" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-scentist.html" title="Scentist Collection Brochure" class="grid-item-tit-a">Scentist Collection Brochure</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style="padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/scent.jpg">
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+
+                                    <section class="grid-item grid-item-long grid-item--width2 filter_Branding filter_Digital filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+
+                                            <div class="grid-item-con">
+                                                <a href="project-dm-website.html" title="dm-drogerie Chinese Website" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-dm-website.html" title="dm-drogerie Chinese Website" class="grid-item-tit-a">dm-drogerie Chinese Website</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/dm_web3.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+                                    <section class="grid-item grid-item-small filter_Branding filter_Digital filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Tchibo.html" title="Tchibo Home page" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-dm-website.html" title="Tchibo's home page" class="grid-item-tit-a">Tchibo's home page</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/tchibo.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+
+                                    <section class="grid-item grid-item-tall filter_Campaign filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-TSO.html" title="TSO Concert Posters" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-TSO.html" title="TSO Concert Posters" class="grid-item-tit-a">Concert Posters</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style="padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/tso2.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-big grid-item--width2 filter_Branding filter_Digital filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-dm-campaign.html" title="dm-drogerie Campaigns" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-dm-campaign.html" title="dm-drogerie Campaigns" class="grid-item-tit-a">dm-drogerie Campaigns</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/campaigns_18.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+                                    <section class="grid-item grid-item-small filter_Campaign filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Joylab.html" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Joylab.html" title="Joy Lab" class="grid-item-tit-a">Joy Lab</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/joy_lab.jpg"></div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+                                    <section class="grid-item grid-item-long grid-item--width2 filter_Campaign filter_Exhibition filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Summer.html" title="Summer Paradise" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Summer.html" title="Summer Paradise" class="grid-item-tit-a">Summer Paradise</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/summer2.jpg">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small grid-item-big grid-item--width2 filter_Branding filter_Digital filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-dm-pdp.html" title="dm-drogerie Product Detail Page" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-dm-pdp.html" title="dm-drogerie Product Detail Page" class="grid-item-tit-a">dm-drogerie Product Detail Page</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/header4.jpg">
+
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+
+                                    <section class="grid-item grid-item-small filter_Campaign filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Taiwan_Excellence.html" title="infoCom VI Design" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Taiwan_Excellence.html" title="infoCom VI Design" class="grid-item-tit-a">infoCom VI Design</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/Taiwan_excellence.jpg">
+
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+                                    <section class="grid-item grid-item-small filter_Campaign filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-ecards.html" title="Festival Greeting e-Cards" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-ecards.html" title="Festival Greeting e-Cards" class="grid-item-tit-a">Festival Greeting e-Cards</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/xxtralab.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+                                    <section class="grid-item grid-item-small filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-scriptkai.html" title="Script Kai" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-scriptkai.html" title="Script Kai" class="grid-item-tit-a">Typeface &#45; Script Kai</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/scriptkai.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+                                    <section class="grid-item grid-item-long grid-item--width2 filter_Campaign filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Posters.html" title="Culture Exhibition Posters" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Posters.html" title="Culture Exhibition Posters" class="grid-item-tit-a">Culture Exhibition Posters</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/poster2.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+
+                                    <section class="grid-item grid-item-small grid-item-big grid-item--width2 filter_Exhibition filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Farmingfun.html" title="Eco Friendly Farming Fun!" class="grid-item-mask-link"></a>
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Farmingfun.html" title="Eco Friendly Farming Fun!" class="grid-item-tit-a">Eco Friendly Farming Fun!</a></h2>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/taiwanmuseum3.jpg">
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+
+                                    <section class="grid-item grid-item-small filter_Campaign filter_Exhibition filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Autobiography.html" title="The Spirit of Autobiography" class="grid-item-mask-link"></a>
+
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Autobiography.html" title="The Spirit of Autobiography" class="grid-item-tit-a">The Spirit of Autobiography</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/National_Palace_Museum2.jpg"></div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+                                    <section class="grid-item grid-item-small filter_post-format-gallery" data-postid="170">
+
+                                        <div class="grid-item-inside">
+                                            <div class="grid-item-con">
+                                                <a href="project-Redesignbook.html" title="Redesign Classics" class="grid-item-mask-link"></a>
+
+
+                                                <div class="grid-item-con-text">
+                                                    <h2 class="grid-item-tit"><a href="project-Autobiography.html" title="Redesign Classics" class="grid-item-tit-a">Redesign Classics</a></h2>
+                                                </div>
+                                            </div>
+
+                                            <div class="brick-content ux-lazyload-wrap" style=" padding-top: 75.384615384615%;">
+                                                <div class="ux-lazyload-bgimg ux-background-img" data-bg="img/books_15.jpg"></div>
+                                            </div>
+
+
+                                        </div>
+                                        <!--End inside-->
+
+                                    </section>
+
+
+                                </div>
+                                <!--End masonry-list-->
+
+                            </div>
+                            <!-- End container-masonry -->
+
+
+                        </div>
+                        <!-- End #content_wrap-->
 
                     </div>
                     <!-- End content_wrap_outer-->
@@ -152,15 +688,15 @@
                 </div>
                 <!--End #content-->
 
-                <footer id="footer" class="footer-cols-layout" style="background-color:#F1F1F1;">
+                <footer id="footer" class="footer-cols-layout">
 
                     <div class="footer-info">
                         <div class="footer-container">
                             <div class="span6">
                                 <div id="logo-footer">
-
-                                    <img class="logo-footer-img" src="img/demo/logo_dark%20copy.png" alt="Vera Chang" />
-
+                                    <a href="index.html" title="Vera Chang">
+                                        <img class="logo-footer-img" src="img/demo/logo_dark%20copy.png" alt="Vera Chang" />
+                                    </a>
                                 </div>
                             </div>
 
@@ -169,13 +705,13 @@
                                     <ul class="socialmeida clearfix">
 
                                         <li class="socialmeida-li">
-                                            <a title="Dribbble" href="https://dribbble.com/verachang" class="socialmeida-a">
+                                            <a title="Dribbble" href="https://dribbble.com/verachang" class="socialmeida-a" target="_blank">
                                                 <span class=""></span> <span class="socialmeida-text">Dribbble</span>
                                             </a>
                                         </li>
 
                                         <li class="socialmeida-li">
-                                            <a title="Behance" href="https://www.behance.net/verachang" class="socialmeida-a">
+                                            <a title="Behance" href="https://www.behance.net/verachang" class="socialmeida-a" target="_blank">
                                                 <span class=""></span> <span class="socialmeida-text">Behance</span>
                                             </a>
                                         </li>
@@ -193,6 +729,9 @@
 
             </div>
             <!--End #wrap -->
+
+            <div class="bordered-top"></div>
+            <div class="bordered-bottom"></div>
 
             <div class="video-overlay modal"><span class="video-close"></span></div>
             <!--end video-overlay-->
@@ -243,10 +782,10 @@
                 </div>
 
                 <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                    </button>
+                </button>
 
                 <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                    </button>
+                </button>
 
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
@@ -257,12 +796,14 @@
         </div>
 
     </div>
-
+    <script>
+        $('*').removeAttr('title')
+    </script>
     <!-- jQuery Library -->
     <script type='text/javascript' src='js/library/jquery.min.js'></script>
     <!-- Main Js Plugin -->
     <script type='text/javascript' src='js/main.min.js'></script>
-    <!-- Air. Theme main js -->
+    <!-- Vera Chang main js -->
     <script type='text/javascript' src='js/custom.theme.js'></script>
 
 </body>
