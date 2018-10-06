@@ -4582,9 +4582,17 @@ textarea {
 .text_block.withbg a.ux-btn.btn-dark {
     color: #4b4b4b;
     border-color: #4b4b4b;
+
+}
+.btn-send
+{
+    
+    border-color: #4b4b4b;
+    background-color: #313139
+
 }
 
-.ux-btn.btn-dark:hover,
+.btn-send .ux-btn.btn-dark:hover,
 .text_block.withbg a.ux-btn.btn-dark:hover {
     color: #fff;
     border-color: #999999;
