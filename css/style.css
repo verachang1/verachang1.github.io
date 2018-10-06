@@ -1333,7 +1333,7 @@ input[type="search"].search_top_form_text {
 #navi-trigger {
     display: none;
     position: relative;
-    top: 50%;
+    top: 60%;
     float: right;
     margin-top: -8px;
     z-index: 10;
