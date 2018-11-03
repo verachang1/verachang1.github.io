@@ -7565,7 +7565,7 @@ blockquote cite {
     .responsive-ux #logo,
     .responsive-ux .logo-h1 {
         height: 55px;
-        line-height: 55px;
+        line-height: 45px;
     }
 
     .responsive-ux #navi-trigger {
@@ -7613,8 +7613,8 @@ blockquote cite {
 
     .responsive-ux .navi-logo .logo-wrap,
     .responsive-ux #woocomerce-cart-side {
-        line-height: 100px;
-        height: 100px;
+        line-height: 80px;
+        height: 80px;
     }
 
     .responsive-ux .logo-image {
