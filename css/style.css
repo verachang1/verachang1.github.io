@@ -2022,6 +2022,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 .ux-has-filter .page-template-intro-left-list-right > .ux-portfolio-template-intro,
 .ux-has-filter .page-template-intro-left-list-right > .filters-wrap {
     display: table-cell;
+    left
     width: 50%;
     vertical-align: bottom;
 }
@@ -6493,7 +6494,9 @@ h3#reply-title small,
 
 /* Portfolio List - Title for Item */
 
-.grid-item-tit,
+.grid-item-tit {
+    color: #313139;
+}
 .grid-item-tit-a:hover {
     color: #adadad;
 }
@@ -8093,8 +8096,8 @@ blockquote cite {
     .single-portfolio-2c-body .social-bar,
     .gallery-property,
     .single-portfolio-fullwidth .blog-unit-gallery-wrap:not(.start-from-gallery) {
-        margin-bottom: 150px;
-        margin-top: 60px;
+        margin-bottom: 130px;
+        margin-top: 70px;
     }
 
     body.single.single-portfolio-2c-body .blog-unit-gallery-wrap {
