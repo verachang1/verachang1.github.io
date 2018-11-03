@@ -2233,7 +2233,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 .grid-mask-filled-left .grid-item-con:hover:after,
 .grid-mask-filled-center .grid-item-con:hover:after {
     opacity: 1;
-    background: #ADADAD;
+    background: #fff;
     height: 35px;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -2337,7 +2337,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
     left: 50%;
     width: 100%;
     padding: 0px 0px;
-    color: #fff;
+    color:#313139;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -6230,7 +6230,7 @@ body.ux-bordered,
 
 /* Plain Text Logo */
 .grid-item-tit-a {
-    color: #FFFFFF;
+    color: #313139;
 }
 
 /* Plain Text Logo - Dark Logo */
@@ -6495,7 +6495,7 @@ h3#reply-title small,
 
 .grid-item-tit,
 .grid-item-tit-a:hover {
-    color: #313139;
+    color: #adadad;
 }
 
 
@@ -8093,8 +8093,8 @@ blockquote cite {
     .single-portfolio-2c-body .social-bar,
     .gallery-property,
     .single-portfolio-fullwidth .blog-unit-gallery-wrap:not(.start-from-gallery) {
-        margin-bottom: 20px;
-        margin-top: 40px;
+        margin-bottom: 150px;
+        margin-top: 60px;
     }
 
     body.single.single-portfolio-2c-body .blog-unit-gallery-wrap {
