@@ -2022,8 +2022,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 .ux-has-filter .page-template-intro-left-list-right > .ux-portfolio-template-intro,
 .ux-has-filter .page-template-intro-left-list-right > .filters-wrap {
     display: table-cell;
-    left
-    width: 50%;
+    left width: 50%;
     vertical-align: bottom;
 }
 
@@ -2338,7 +2337,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
     left: 50%;
     width: 100%;
     padding: 0px 0px;
-    color:#313139;
+    color: #313139;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4585,12 +4584,11 @@ textarea {
     border-color: #4b4b4b;
 
 }
-.btn-send
-{
-    
+
+.btn-send {
+
     border-color: #4b4b4b;
     background-color: #313139
-
 }
 
 .btn-send .ux-btn.btn-dark:hover,
@@ -6497,6 +6495,7 @@ h3#reply-title small,
 .grid-item-tit {
     color: #313139;
 }
+
 .grid-item-tit-a:hover {
     color: #adadad;
 }
@@ -6657,9 +6656,9 @@ input[type="color"]:focus,
 /*Main font*/
 
 body {
-    font-family: 'Akkurat', sans-serif;
+    font-family: 'akkurat', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -6675,18 +6674,41 @@ button {
     font-size: 14px;
 }
 
+
 @font-face {
-    font-family: 'Akkurat';
-    src: url('../font/Akkurat.woff') format('woff'), url('../font/Akkurat-Light.woff') format('woff');
+    font-family: 'akkurat';
+    src: url('../font/akkurat-light.woff2') format('woff2'),
+        url('../font/akkurat-light.woff') format('woff'),
+        url('../font/akkurat-light.ttf') format('truetype'),
+        url('../font/akkurat-light.eot') format('embedded-opentype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Arnhem';
-    src: url('../font/Arnhem.woff') format('woff'), url('../font/CenturyStd-Book.woff') format('woff');
+    font-family: 'akkurat';
+    src: url('../font/akkurat-normal.woff2') format('woff2'),
+        url('../font/akkurat-normal.woff') format('woff'),
+        url('../font/akkurat-normal.ttf') format('truetype'),
+        url('../font/akkurat-normal.eot') format('embedded-opentype');
+    font-weight: 400;
+    font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'arnhem';
+    src: url('../font/arnhem-webfont.woff2') format('woff2'),
+        url('../font/arnhem-webfont.woff') format('woff'),
+        url('../font/arnhem.ttf') format('truetype'),
+        url('../font/arnhem.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 hs {
-    font-family: 'Arnhem', serif;
+    font-family: 'arnhem', serif;
 }
 
 
@@ -6694,8 +6716,8 @@ hs {
 
 .menu-item,
 .footer-info {
-    font-family: 'Akkurat', sans-serif;
-    font-weight: 300;
+    font-family: 'akkurat', sans-serif;
+    font-weight: 400;
     letter-spacing: 0.5px;
 }
 
@@ -6709,7 +6731,7 @@ body.single,
 .archive-grid-item-tit,
 .title-wrap-meta-a,
 .archive-grid-item-meta-item .shortcode-half-img-caption-inn {
-    font-family: 'Akkurat-light', sans-serif;
+    font-family: 'akkurat', sans-serif;
     font-weight: 300;
     letter-spacing: 0.5px;
 }
@@ -6749,7 +6771,7 @@ body.single,
 #navi-header a,
 .header-bar-social .socialmeida-a {
     font-size: 18px;
-    font-family: 'Akkurat', sans-serif;
+    font-family: 'akkurat', sans-serif;
     line-height: 1.2;
     font-weight: 400;
 }
@@ -6758,14 +6780,14 @@ body.single,
 /* Menu Item on Expanded Panel*/
 
 #navi a {
-    font-family: 'Akkurat', sans-serif;
-    font-weight: 300;
+    font-family: 'akkurat', sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 40px;
 }
 
 .socialmeida {
-    font-family: 'Akkurat', sans-serif;
+    font-family: 'akkurat', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -6780,7 +6802,7 @@ body.single .title-wrap-tit,
 
 .title-wrap-tit {
     font-size: 40px;
-    font-family: 'Akkurat-light', sans-serif;
+    font-family: 'akkurat', sans-serif;
     line-height: 1.3;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -6790,8 +6812,8 @@ body.single .title-wrap-tit,
 /* Gallery Post Property Title */
 
 .gallery-info-property-tit {
-    font-family: 'Akkurat', sans-serif;
-    font-weight: 300;
+    font-family: 'akkurat', sans-serif;
+    font-weight: 400;
     font-size: 20px;
 }
 
@@ -6813,8 +6835,8 @@ body.single .title-wrap-tit,
 /* Post Previous & Next */
 
 .post-navi-single {
-    font-family: 'Akkurat', sans-serif;
-    font-weight: lighter;
+    font-family: 'akkurat', sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -6822,8 +6844,8 @@ body.single .title-wrap-tit,
 /* Load More Button  */
 
 .pagenums {
-    font-family: 'Akkurat', sans-serif;
-    font-weight: lighter;
+    font-family: 'akkurat', sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 20px;
 }
