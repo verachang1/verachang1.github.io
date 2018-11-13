@@ -8354,3 +8354,8 @@ blockquote cite {
     bottom: 8px;
     left: 10px;
 }
+
+#navi-trigger {
+    top: 15px;
+    margin-top: 0;
+}
