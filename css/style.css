@@ -7586,8 +7586,8 @@ blockquote cite {
     .responsive-ux .logo-a,
     .responsive-ux #logo,
     .responsive-ux .logo-h1 {
-        height: 40px;
-        line-height: 18px;
+        height: 60px;
+        line-height: 80px;
     }
 
     .responsive-ux #navi-trigger {
@@ -8356,6 +8356,6 @@ blockquote cite {
 }
 
 #navi-trigger {
-    top: 18px;
+    top: 30px;
     margin-top: 0;
 }
